@@ -5,6 +5,16 @@
     android:layout_height="match_parent"
     tools:context="com.epicodus.businessapp.MainActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="fill_parent"
+        android:layout_height="58dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+    </android.support.v7.widget.Toolbar>
+
 
     <ImageView
         android:layout_width="match_parent"
@@ -14,7 +24,6 @@
         android:layout_marginBottom="293dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
-
 
 
     <ListView
@@ -36,20 +45,7 @@
         android:layout_centerHorizontal="true"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="@color/colorPrimary"
-         />
-    />
+        android:textColor="@color/colorPrimary" />
 
 
-    <!--<Button-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="View Products"-->
-        <!--android:id="@+id/button"-->
-        <!--android:layout_alignParentBottom="true"-->
-        <!--android:layout_alignParentRight="true"-->
-        <!--android:layout_alignParentEnd="true"-->
-        <!--android:layout_alignParentLeft="true"-->
-        <!--android:layout_alignParentStart="true"-->
-        <!--android:background="@color/colorAccent" />-->
 </RelativeLayout>
